@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+body{
+	background-image:url("bg.jpg")
+}
+
+p{	
+	margin:0px;
+}
+
+a:link,a:visited{
+	text-decoration:none;/*超链接无下划线*/
+}
+
+a:hover{
+	text-decoration:underline;/*鼠标放上去有下划线*/
+}
+
+li{
+	list-style:none;
+}
+
+.clear{
+	clear:both;
+}
+
+#head{
+	width:960px;
+	height:280px;
+	margin:auto;
+	/*border:solid;*/
+	margin-top:20px;
+
+}
+
+#head .logo{
+	height:240px;
+	/*border:dashed;*/
+}
+
+#head .logo img{
+	width:150px;
+	height:140px;
+	padding-left:400px;
+	margin-top:20px;
+}
+
+#head .p1{
+	margin:auto;
+	margin-top:10px;
+	width:350px;
+	font-style:italic;
+	font-size:20px;
+	/*background-color:red;*/
+	
+	
+}
+
+#head .p2{
+	margin:auto;
+	margin-top:5px;
+	width:350px;
+	font-size:15px;
+	/*background-color:gray;*/
+}
+
+#head .logo_nav{
+	/*border:solid;*/
+	height:35px;
+}
+
+#head .logo_nav ul{
+	width:900px;
+	/*border:solid;*/
+	margin-top:0px;
+	
+}
+
+#head .logo_nav ul li{
+	display:inline;
+	/*border:solid;*/
+	margin-right:10px;
+}
+
+
+#intr{
+	width:960px;
+	height:260px;
+	background-color:white;
+	margin:auto;
+	margin-top:2px;
+	margin-bottom:2px;
+	/*border:solid;*/
+	
+}
+
+
+#intr .intr_top{
+	margin-top:0px;
+	height:220px;
+	/*background-color:yellow;*/
+	/*border:dashed;*/
+}
+
+#intr .intr_top img{
+	float:left;
+	width:180px;
+	height:180px;
+	/*background-color:black;*/	
+	left:100px;
+	top:20px;
+	position:relative;
+}
+
+#intr .intr_top .intr_tex{	
+	float:right;
+	/*background-color:green;*/
+	line-height:34px;
+	position:relative;
+	top:40px;
+	right:80px;
+}
+
+#intr .intr_top .intr_tex .intr_tex1{
+	margin:auto;
+	width:100px;
+	/*background-color:red;*/
+	font-size:20px;
+	position:relative;
+	top:-10px;
+	
+}
+
+#intr .intr_top .intr_tex .intr_tex2{
+	margin:auto;
+	background-color:white;
+}
+
+#prod{
+	width:960px;
+	height:400px;
+	/*background-color:yellow;*/
+	margin:auto;
+	/*border:solid;*/
+}
+
+
+#prod .prod_spe ul li{
+	position:relative;
+	/*border:solid;*/
+	width:150px;
+	height:150px;
+	float:left;
+	left:60px;
+	margin-right:40px;
+	margin-bottom:20px;
+	padding:0px;	
+}
+
+#prod .prod_spe ul li img{
+	width:150px;
+	height:150px;
+}
+
+#cont{
+	width:960px;
+	height:350px;
+	background-color:white;
+	margin:auto;
+	/*border:solid;*/
+	margin-top:3px;
+}
+
+#cont .cont_tex{
+	width:960px;
+	height:80px;
+	background-color:#eeeeea;
+}
+#cont .cont_tex p{
+	float:rignt;
+	width:200px;
+	height:40px;
+	margin:auto;
+	position:relative;
+	font-size:34px;
+	top:25px;
+	padding-left:40px;
+}
+#cont .cont_inf{
+	position:relative;
+	float:left;
+	width:960px;
+	height:250px;
+	/*background-color:blue;*/
+	bottom:0px;
+	/*border:solid;*/
+	
+} 
+
+#cont .cont_inf form{
+	/*background-color:yellow;*/
+	float:left;
+	position:relative;
+	left:100px;
+	top:30px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+#cont .cont_inf form .form1{
+	height:22px;
+	margin-bottom:5px;
+	/*border:solid 1px;*/
+	width:180px;
+}
+
+#cont .cont_inf form .form2{
+	height:22px;
+	width:180px;
+	/*border:solid 1px;*/
+	margin-left:4px;
+}
+
+#cont .cont_inf form .form3{
+	height:22px;
+	width:372px;
+	/*border:solid 1px;*/
+	margin-bottom:5px;
+}
+
+#cont .cont_inf form .form4{
+	width:372px;
+	height:100px;
+	/*border:solid 1px;*/
+	margin-bottom:5px;
+}
+
+#cont .cont_inf form .form5{
+	position:relative;
+	margin:auto;
+	/*border:solid;*/
+	left:140px;
+}
+
+#cont .cont_inf .cont_right{
+	width:300px;
+	height:206px;
+	/*background-color:white;*/
+	position:relative;
+	float:right;
+	top:20px;
+	right:140px;
+}
+
+#cont .cont_inf .cont_right p{
+	line-height:26px;
+	position:relative;
+	top:10px;
+
+}
+
+#cont .cont_right_phone{
+	height:20px;
+	width:20px;
+	/*border:solid red;*/
+	position:relative;
+	top:1px;
+}
+
+#cont .cont_right_email{
+	width:20px;
+	height:20px;
+	/*border:solid blue;*/
+}
+
+#cont .cont_right_addr{
+	width:20px;
+	height:20px;
+	/*border:solid green;*/
+
+}
+
+#cont .right_first{
+	padding-top:0px;
+	/*border:solid;*/
+}
+
+#cont .right_second{
+	/*border:solid;*/
+}
+
+#cont .right_third{
+	/*border:solid;*/
+}
+
+#cont .cont_right div:nth-child(2) p{
+	line-height:15px;
+	float:right;
+	position:relative;
+	right:100px;
+	top:5px;
+}
+
+#addr{
+	width:960px;
+	height:250px;
+	background-color:white;
+	margin:auto;
+	/*border:solid;*/
+	margin-top:3px;
+}
+
+#addr .addr_map{
+	width:960px;
+	height:200px;
+	background-color:yellow;
+	background-image:url("map.jpg")
+}
+
+#addr .addr_nav img{
+	margin-left:350px;
+	margin-top:5px;
+}
+
+
+
+
+
+
+
